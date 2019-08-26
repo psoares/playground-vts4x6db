@@ -10,4 +10,4 @@ projects:
   micronaut-function:
     root: ./projects/myfunction
     buildCommand: faas-cli build -f ./function.yml
-    runner: openfaas/faas-cli:latest
+    runner: openfaas/faas-cli:0.9.2
