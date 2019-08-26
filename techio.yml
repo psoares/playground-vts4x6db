@@ -5,3 +5,9 @@ plan:
 
 - title: Creating a function
   statement: markdowns/creating-a-function.md
+
+projects:
+  micronaut-function:
+    root: ./projects/myfunction
+    buildCommand: faas-cli build -f ./function.yml
+    runner: openfaas/faas-cli:latest
