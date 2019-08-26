@@ -1,4 +1,4 @@
 title: Custom Template
 plan:
 - title: Welcome
-  statement: markdowns/welcome.md
+  statement: markdowns/openfaas-micronaut-graalvm.md
