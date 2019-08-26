@@ -12,4 +12,14 @@ Micronaut comes with its own cli tool for building applications. You can create 
 mn create-function myfunction --features openfaas
 ```
 
-This will generate an example project. 
+This will generate an example project with the following structure highlights:
+
+```text
+myfunction
+    |_______ function.yml
+    |_______ src
+              |____ main
+                      |____ java
+                              
+
+```
