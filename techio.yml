@@ -1,4 +1,7 @@
 title: Custom Template
 plan:
-- title: Welcome
+- title: Native serverless functions on OpenFaaS with Micronaut and GraalVM
   statement: markdowns/openfaas-micronaut-graalvm.md
+
+- title: Creating a function
+  statement: markdowns/creating-a-function.md
